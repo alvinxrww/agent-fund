@@ -4,7 +4,7 @@ import os
 from datetime import datetime
 
 # Define where Antigravity saves the pulse data
-BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__name__)))
 ARTIFACT_PATH = os.path.join(BASE_DIR, "market_pulse.md")
 OUTPUT_SIGNAL_PATH = os.path.join(BASE_DIR, "engine", "signal.json")
 
