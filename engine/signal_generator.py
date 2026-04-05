@@ -43,10 +43,10 @@ def generate_signal():
         with open(OUTPUT_SIGNAL_PATH, 'w') as out_file:
             json.dump(trade_signals, out_file, indent=4)
             
-        print(f"✅ Signal generated successfully: {trade_signals}")
+        print(f"Signal generated successfully: {trade_signals}")
         
     except FileNotFoundError:
-        print("❌ Waiting for Antigravity to generate the latest artifact.")
+        print("Waiting for Antigravity to generate the latest artifact.")
 
 if __name__ == "__main__":
     generate_signal()
