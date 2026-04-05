@@ -1,0 +1,17 @@
+# Environments
+venv/
+env/
+.env
+
+# Generated state and outputs
+market_pulse.md
+engine/signal.json
+
+# Cache and temporary files
+__pycache__/
+*.pyc
+
+# IDE and AI configs
+.vscode/
+.idea/
+.claude/
