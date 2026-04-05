@@ -35,9 +35,13 @@ Located in `.agent/skills/market-scout/`, this module performs visual and sentim
 4. **Configure Environment Variables:**
    Create a `.env` file in the root directory (never commit this) with the following:
    ```env
+   # Alpaca credentials
    APCA_API_KEY_ID=your_key_here
    APCA_API_SECRET_KEY=your_secret_here
    APCA_API_BASE_URL=https://paper-api.alpaca.markets
+
+   # If you don't use Anthropic, you can remove this line
+   ANTHROPIC_API_KEY=your_claude_key_here
    ```
 
 ## 🛠️ Usage
