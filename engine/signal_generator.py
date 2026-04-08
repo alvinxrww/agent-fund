@@ -4,7 +4,7 @@ import os
 from datetime import datetime
 
 # Define where Antigravity saves the pulse data
-BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__name__)))
+BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 ARTIFACT_PATH = os.path.join(BASE_DIR, "market_pulse.md")
 OUTPUT_SIGNAL_PATH = os.path.join(BASE_DIR, "engine", "signal.json")
 
@@ -12,8 +12,8 @@ def parse_artifact(md_content):
     """Extracts ticker and RSI using regex from the Markdown table."""
     signals = {}
     
-    # Looking for lines like: | BTCUSD | 45.5 | ...
-    # This is a basic parser; you can make this more robust with an LLM call later
+    # Looking for lines like: | BTC | 45.5 | ...
+    # Flexible regex to handle integers and varying whitespace
     rows = re.findall(r'\|\s*([A-Z]+)\s*\|\s*([\d.]+)\s*\|', md_content)
     
     for ticker, rsi_str in rows:

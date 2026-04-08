@@ -16,5 +16,7 @@ description: Perform a visual and sentiment analysis for BTC, GLD, and VOO.
    - Based on recent headlines, categorize the current macro sentiment as "Risk-On" or "Risk-Off."
 3. **Verification:**
    - Navigate to the BTC/USD daily chart. Keep the page open momentarily to ensure the chart is captured within the browser subagent's automated session recording.
-4. **Reporting:**
-   - Generate a markdown table summarizing the "Pulse" for each asset, including the gathered metrics, overbought/oversold status, and the overall macro sentiment. Write this table directly to the root of the user's workspace as `market_pulse.md` instead of creating an internal Agent Artifact.
+4. **Reporting (IMPORTANT — do NOT use the browser subagent for this step):**
+   - After **all** browser subagent calls from steps 1–3 have returned, collect the extracted data (RSI, SMA, status, sentiment) from their responses.
+   - Write `market_pulse.md` at the root of the user's workspace using a **terminal command** via `run_command` (e.g., `echo` with redirect or a Python one-liner). Do **not** use `write_to_file` as it may be cancelled by the system during long-running pipelines. Do **not** create an internal Agent Artifact.
+   - The file must contain a markdown table summarizing the "Pulse" for each asset, including the gathered metrics, overbought/oversold status, and the overall macro sentiment.
