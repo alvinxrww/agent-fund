@@ -1,0 +1,72 @@
+2026-04-12 18:55:34,386 - ERROR - get_account failed: HTTPSConnectionPool(host='paper-api.alpaca.markets', port=443): Max retries exceeded with url: /v2/account (Caused by SSLError(CertificateError("hostname 'paper-api.alpaca.markets' doesn't match 'internetpositif.id'")))
+2026-04-12 18:55:34,568 - ERROR - submit_order failed for BTC/USD: HTTPSConnectionPool(host='data.alpaca.markets', port=443): Max retries exceeded with url: /v2/stocks/BTC/USD/trades/latest (Caused by SSLError(CertificateError("hostname 'data.alpaca.markets' doesn't match 'internetpositif.id'")))
+2026-04-12 18:55:34,738 - ERROR - submit_order failed for GLD: HTTPSConnectionPool(host='data.alpaca.markets', port=443): Max retries exceeded with url: /v2/stocks/GLD/trades/latest (Caused by SSLError(CertificateError("hostname 'data.alpaca.markets' doesn't match 'internetpositif.id'")))
+2026-04-12 18:57:17,136 - INFO - get_account called. Portfolio Value: 100000.0
+2026-04-12 18:57:18,287 - ERROR - submit_order failed for BTC/USD: Not Found
+2026-04-12 18:57:18,795 - INFO - DRY RUN submit_order: sell 1 GLD at ~$437.07
+2026-04-12 18:58:30,137 - INFO - get_account called. Portfolio Value: 100000.0
+2026-04-12 18:58:31,286 - ERROR - submit_order failed for BTC/USD: Not Found
+2026-04-12 18:58:31,784 - INFO - DRY RUN submit_order: sell 1 GLD at ~$437.07
+2026-04-12 18:59:32,933 - INFO - get_account called. Portfolio Value: 100000.0
+2026-04-12 18:59:32,934 - WARNING - Could not fetch live price for BTC/USD: 'REST' object has no attribute 'get_latest_crypto_trade'. Fallback to $1.0.
+2026-04-12 18:59:33,184 - INFO - DRY RUN submit_order: buy 1 BTC/USD at ~$1.0
+2026-04-12 18:59:34,590 - INFO - DRY RUN submit_order: sell 1 GLD at ~$437.07
+2026-04-12 19:00:09,666 - INFO - get_account called. Portfolio Value: 100000.0
+2026-04-12 19:00:09,670 - WARNING - Could not fetch live price for BTC/USD: 'REST' object has no attribute 'get_latest_crypto_trade'. Fallback to $1.0.
+2026-04-12 19:00:09,920 - INFO - DRY RUN submit_order: buy 1 BTC/USD at ~$1.0
+2026-04-12 19:00:11,387 - INFO - DRY RUN submit_order: sell 1 GLD at ~$437.07
+2026-04-12 19:03:55,625 - INFO - get_account called. Portfolio Value: 100000.0
+2026-04-12 19:03:56,773 - ERROR - submit_order failed for BTC/USD: Order estimated value $71466.971 exceeds safety limit of $5000.0
+2026-04-12 19:03:57,330 - INFO - DRY RUN submit_order: sell 1 GLD at ~$437.07
+2026-04-12 19:04:33,493 - INFO - get_account called. Portfolio Value: 100000.0
+2026-04-12 19:04:34,957 - ERROR - submit_order failed for BTC/USD: Order estimated value $71466.971 exceeds safety limit of $5000.0
+2026-04-12 19:04:35,464 - INFO - DRY RUN submit_order: sell 1 GLD at ~$437.07
+2026-04-12 19:09:57,219 - INFO - get_account called. Portfolio Value: 100000.0
+2026-04-12 19:09:58,456 - ERROR - submit_order failed for BTC/USD: Order estimated value $71378.58 exceeds safety limit of $5000.0
+2026-04-12 19:09:58,960 - INFO - DRY RUN submit_order: sell 1 GLD at ~$437.07
+2026-04-12 19:22:33,747 - INFO - get_account called. Portfolio Value: 100000.0
+2026-04-12 19:22:34,925 - ERROR - submit_order failed for BTC/USD: Order estimated value $71482.45 exceeds safety limit of $5000.0
+2026-04-12 19:22:35,511 - INFO - DRY RUN submit_order: sell 1 GLD at ~$437.07
+2026-04-12 19:45:14,844 - INFO - get_account called. Portfolio Value: 100000.0
+2026-04-12 19:45:15,094 - INFO - get_positions called. Total positions: 0
+2026-04-12 19:45:50,058 - INFO - get_account called. Portfolio Value: 100000.0
+2026-04-12 19:45:50,321 - INFO - get_positions called. Total positions: 0
+2026-04-12 19:46:27,554 - INFO - get_account called. Portfolio Value: 100000.0
+2026-04-12 19:46:28,702 - ERROR - submit_order failed for BTC/USD: Order estimated value $71508.753 exceeds safety limit of $5000.0
+2026-04-12 19:46:29,216 - INFO - DRY RUN submit_order: sell 1 GLD at ~$437.07
+2026-04-12 19:50:40,984 - INFO - get_account called. Portfolio Value: 100000.0
+2026-04-12 19:50:41,250 - INFO - get_positions called. Total positions: 0
+2026-04-12 19:50:42,397 - ERROR - submit_order failed for BTC/USD: Order estimated value $71488.83 exceeds safety limit of $5000.0
+2026-04-12 19:50:42,902 - INFO - DRY RUN submit_order: sell 1 GLD at ~$437.07
+2026-04-12 19:53:50,899 - INFO - get_account called. Portfolio Value: 100000.0
+2026-04-12 19:53:51,149 - INFO - get_positions called. Total positions: 0
+2026-04-12 20:06:30,331 - INFO - get_account called. Portfolio Value: 100000.0
+2026-04-12 20:06:30,583 - INFO - get_positions called. Total positions: 0
+2026-04-12 20:07:06,280 - INFO - get_account called. Portfolio Value: 100000.0
+2026-04-12 20:07:06,533 - INFO - get_positions called. Total positions: 0
+2026-04-12 20:09:35,487 - INFO - get_account called. Portfolio Value: 100000.0
+2026-04-12 20:09:35,745 - INFO - get_positions called. Total positions: 0
+2026-04-12 20:11:39,923 - INFO - get_account called. Portfolio Value: 100000.0
+2026-04-12 20:11:40,175 - INFO - get_positions called. Total positions: 0
+2026-04-12 20:14:58,361 - INFO - get_account called. Portfolio Value: 100000.0
+2026-04-12 20:14:58,616 - INFO - get_positions called. Total positions: 0
+2026-04-12 20:15:20,333 - INFO - get_account called. Portfolio Value: 100000.0
+2026-04-12 20:15:20,726 - INFO - get_positions called. Total positions: 0
+2026-04-12 20:16:08,643 - INFO - get_account called. Portfolio Value: 100000.0
+2026-04-12 20:16:09,024 - INFO - get_positions called. Total positions: 0
+2026-04-12 20:16:18,464 - INFO - get_account called. Portfolio Value: 100000.0
+2026-04-12 20:16:18,716 - INFO - get_positions called. Total positions: 0
+2026-04-12 20:16:26,823 - INFO - get_account called. Portfolio Value: 100000.0
+2026-04-12 20:16:27,084 - INFO - get_positions called. Total positions: 0
+2026-04-12 20:16:35,917 - INFO - get_account called. Portfolio Value: 100000.0
+2026-04-12 20:16:36,172 - INFO - get_positions called. Total positions: 0
+2026-04-12 20:20:58,887 - INFO - get_account called. Portfolio Value: 100000.0
+2026-04-12 20:20:59,151 - INFO - get_positions called. Total positions: 0
+2026-04-12 20:22:20,551 - INFO - get_account called. Portfolio Value: 100000.0
+2026-04-12 20:22:20,821 - INFO - get_positions called. Total positions: 0
+2026-04-12 20:22:43,873 - INFO - get_account called. Portfolio Value: 100000.0
+2026-04-12 20:22:44,131 - INFO - get_positions called. Total positions: 0
+2026-04-12 20:23:29,029 - INFO - get_account called. Portfolio Value: 100000.0
+2026-04-12 20:23:29,287 - INFO - get_positions called. Total positions: 0
+2026-04-12 20:37:38,611 - INFO - get_account called. Portfolio Value: 100000.0
+2026-04-12 20:37:38,867 - INFO - get_positions called. Total positions: 0

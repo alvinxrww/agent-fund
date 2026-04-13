@@ -1,0 +1,6 @@
+mcp
+alpaca-trade-api==3.2.0
+websockets==10.4
+pandas==3.0.2
+numpy==2.4.4
+python-dotenv==1.2.2
