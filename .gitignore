@@ -15,3 +15,6 @@ __pycache__/
 .vscode/
 .idea/
 .claude/
+
+# Pipeline results
+orchestration_result.json
